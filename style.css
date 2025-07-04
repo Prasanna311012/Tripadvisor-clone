@@ -24,6 +24,9 @@ body{
     display: flex;
     gap: 30px;
 }
+.navbar__s3 p{
+    padding: 10px;
+}
 .navbar__s3 p:hover{
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -181,7 +184,6 @@ body{
     left: 10px;
 }
 .sponcer{
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -290,5 +292,25 @@ body{
     }
     .search{
         display: none;
+    }
+    .card{
+        flex-wrap: wrap;
+    }
+    .card__s1 img{
+        width: 280px;
+        height: 250px;
+    }
+    .card__s2{
+        font-size: 20px;
+        border-left: none;
+    }
+    .card__s1 button{
+        display: none;
+    }
+    .invite{
+        flex-wrap: wrap;
+    }
+    .footer__two{
+        flex-wrap: wrap;
     }
 }
